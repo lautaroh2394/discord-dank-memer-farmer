@@ -1,5 +1,22 @@
 {	
 	"url": "https://discordapp.com/login",
 	"driverpath" : "C:\Users\Lau\eclipse-workspace\discord_farmer\discord_farmer\chromedriver.exe",
-	"commands" : ["pls beg", "pls search", "pls balance", "pls give @lautaroh2394#5136 50"]
+	"commands" : [
+		{
+			"intervalo": 60,
+			"comando":"pls beg"
+		}, 
+		{
+			"intervalo" : 60,
+			"comando" : "pls search"
+		},
+		{
+			"intervalo" : 5,
+			"comando" : "pls bet 5"
+		},
+		{
+			"intervalo" : 60,
+			"comando" : "pls give @lautaroh2394#5136 100"
+		}
+		]
 }
