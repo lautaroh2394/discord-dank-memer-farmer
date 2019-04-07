@@ -14,6 +14,8 @@ En el mismo data.json para la key commands definir una lista de comandos. Estos 
 
 TODO's:
 
--[HECHO] Hacer más customizables los comandos: Poder definir para cada uno el intervalo entre ejecuciones
+-[HECHO] Hacer más customizables los comandos: Poder definir para cada uno el intervalo entre ejecuciones.
+
+El mínimo intervalo entre ejecuciones es 1 segundo.
 
 -Intentar que selenium corra headless
